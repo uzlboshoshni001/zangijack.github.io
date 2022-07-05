@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+}
+
+body {
+	background-color: #333333;
+}
+
+h1{
+	color: white;
+}
+
+h2{
+	color: white;
+}
+
+
+
+#container{
+	width: 1000px;
+	height: 800px;
+	outline: 2px white solid;
+}
+
+
+#checker {
+	display: flex;
+	position: relative;
+	top: 90px;
+	width: 175px;
+	height: 60px;
+	outline: 2px white solid;	
+
+}
+
+#header{
+	padding: 5px;
+	font-size: 20px;
+}
+
+#header1,#header2,#header3{
+	position: relative;
+	top: 30px;
+	right: 160px;
+	padding-right: 50px;
+}
+
+
+#game {
+	position: relative;
+	top: 50px;
+	width: 100%;
+	height: 600px;
+	background-color: green;
+}
+
+
+#player {
+	position: relative;
+	right: 250px;
+	top: 0px;
+	width: 50%;
+	height: 420px;
+	outline: 2px white solid;
+	overflow: hidden;
+}
+
+#player-header{
+	color: white;
+}
+
+
+#bot{
+	position: relative;
+	bottom: 420px;
+	left: 250px;
+	width: 50%;
+	height: 420px;
+	outline: 2px white solid;	
+}
+
+
+#bot-header{
+	color: white;
+}
+
+#button-holder{
+	position: relative;
+	top: 510px;
+	width: 230px;
+	height: 80px;
+	outline: 2px solid white;
+}
+
+button{
+	position: relative;
+	top: 15px;
+	padding: 15px;
+	cursor: pointer;
+	border: none;
+	font-size: 18px;
+}
+
+
+#hit{
+	background-color: blue;
+	color: white;
+
+}
+
+#stand{
+	background-color: orange;
+	color: white;	
+}
+
+
+#deal{
+	background-color: red;
+	color: white;
+}
